@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.josemarrima.journalapp.AddEntryActivity" >
+
+    <item
+        android:id="@+id/action_cancel"
+        android:enabled="false"
+        android:icon="@drawable/ic_action_cancel"
+        android:orderInCategory="12"
+        android:title="Cancel"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_saving"
+
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="13"
+        android:title="Saving"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="action_settings"
+        app:showAsAction="never" />
+
+</menu>
